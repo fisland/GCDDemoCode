@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"当前主线程%@",[NSThread currentThread]);
+
     //同步任务并行队列
     //[self syncQueueConcurrent];
     
